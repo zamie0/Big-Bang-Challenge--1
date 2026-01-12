@@ -45,19 +45,6 @@ npm install --save-dev @types/node
 npx tsc --init
 ```
 
-Ensure your `tsconfig.json` includes:
-
-```json
-{
-  "compilerOptions": {
-    "module": "commonjs",
-    "target": "esnext",
-    "types": ["node"],
-    "strict": true
-  }
-}
-```
-
 ---
 
 ## Running the Script
